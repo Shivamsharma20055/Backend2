@@ -1,6 +1,6 @@
-# PlayStream Backend 🎥
+# PlayStream backend 🎥
 
-*PlayStream Backend* is a complete backend system for a video hosting platform, inspired by YouTube.  
+*PlayStream backend* is a complete backend system for a video hosting platform, inspired by YouTube.  
 It is built with *Node.js, Express.js, MongoDB, and Mongoose* and follows industry-standard practices such as JWT authentication, access & refresh tokens, and secure password hashing with bcrypt.  
 
 With PlayStream, users can sign up, log in, upload videos, like/dislike, comment, reply, subscribe/unsubscribe — making it a *full-fledged backend system* for a scalable video platform.
@@ -34,29 +34,35 @@ With PlayStream, users can sign up, log in, upload videos, like/dislike, comment
 ⚙ Setup Guide
 1. Clone the repository
  
-git clone https://github.com/Shivamsharma20055/PlayStream Backend.git
-cd vidstream-backend
+```
+git clone https://github.com/Shivamsharma20055/PlayStream-backend.git
+cd PlayStream-backend
+```
+
 
 
 2. Install dependencies
- 
+ ```
 npm install
+```
 
 
 3. Configure Environment Variables
 Rename .env.example to .env and add your own values:
-
+```
 PORT=3000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 REFRESH_TOKEN_SECRET=your_refresh_secret
 CLOUD_STORAGE_KEY=optional_if_used
+```
 
 
 4. Run the project
 # Development mode (with nodemon)
-
+```
 npm run dev
+```
 
 
 # Production mode
@@ -66,8 +72,14 @@ npm start
 
 5. Access the API
 Once the server is running, open:
-
+```
 http://localhost:3000
+```
+
+
+
+
+
 
 
 📌 API Documentation
