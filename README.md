@@ -161,4 +161,4 @@ http://localhost:3000
 | Endpoint              | Method | Description                 | Auth |
 | --------------------- | ------ | --------------------------- | ---- |
 | /api/v1/healthcheck | GET    | Check if service is running | ❌    |
-/api/v1/healthcheck	GET	Check if service is running	❌
+
